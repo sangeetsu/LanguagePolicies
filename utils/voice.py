@@ -7,9 +7,13 @@ class Voice():
     def __init__(self, use_synonyms=True, load=True):
         self.use_syn = use_synonyms
         if load:
-            self.dict = self._loadDictionary("../GDrive/glove.6B.50d.txt")
+            self.dict = self._loadDictionary("/home/sikhdragon/Documents/CSE598/LanguagePolicies/GDrive/glove.6B.50d.txt")
             self.inv_dict = {v: k for (k, v) in self.dict.items()}
-
+        self.location_dict = {}
+        self.location_dict[1] = "right"
+        self.location_dict[2] = "left"
+        self.location_dict[3] = "front"
+        self.location_dict[4] = "behind"
         self.map_bowls          = {}
         self.map_bowls[1]       = ("yellow", "small", "round")
         self.map_bowls[2]       = ("red",    "small", "round")
@@ -56,6 +60,9 @@ class Voice():
         self.synonyms["bowl"]   = ["bowl", "basin", "dish", "pot"]
         self.synonyms["left"]   = ["left", "port"]
         self.synonyms["right"]  = ["right", "starboard"]
+        self.synonyms["front"]   = ["in front", "ahead", "beforehand", "preceding", "leading"]
+        self.synonyms["behind"]  = ["behind", "subsequent", "bottom"]
+        self.synonyms["place"]  = ["place", "set", "put"]
 
         self.test_words = {}
         self.test_words["round"]  = "circular"
@@ -78,7 +85,7 @@ class Voice():
 
         self.templates = [
             [ "{pick} the {cup_description} {cup} {pick_support}"  ],
-            [ "{pour} {amount} into the {bowl_description} {bowl}" ]
+            [ "{place} {location} of {bowl_description} {bowl}" ]
         ]
 
         # Make adjustments in case we don't want synonyms
@@ -183,7 +190,8 @@ class Voice():
         pick             = np.random.choice(self.synonyms["pick"])
         pick_support     = "" if len(pick.split("_")) == 1 else pick.split("_")[1]
         pick             = pick.split("_")[0]
-        amount           = np.random.choice(self.synonyms["little"]) if task["amount"] < 150 else np.random.choice(self.synonyms["much"])
+        location = np.random.choice(self.synonyms[self.location_dict[task["amount"]]])
+        #amount           = np.random.choice(self.synonyms["little"]) if task["amount"] < 150 else np.random.choice(self.synonyms["much"])
         cup_description  = "" if task["target/type"] == "bowl" else self.getMinimalCupDescription(task)
         bowl_description = "" if task["target/type"] == "cup"  else self.getMinimalBowlDescription(task)
         namespace        = {
@@ -191,8 +199,8 @@ class Voice():
             "cup_description": cup_description, 
             "cup": np.random.choice(self.synonyms["cup"]), 
             "pick_support": pick_support, 
-            "pour": np.random.choice(self.synonyms["pour"]), 
-            "amount": amount, 
+            "place": np.random.choice(self.synonyms["place"]), 
+            "location": location, 
             "bowl_description": bowl_description,
             "bowl": np.random.choice(self.synonyms["bowl"])
         }
@@ -202,3 +210,5 @@ class Voice():
         sentence = sentence.replace("  ", " ")
         return sentence
 
+    def getBowlSize(self, id):
+        return self.map_bowls[id][1]

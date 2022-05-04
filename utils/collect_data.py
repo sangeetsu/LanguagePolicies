@@ -18,26 +18,26 @@ import os
 
 # How many processes shold collect data in parallel? 
 # A good measure is to put the number of CPU cores you have (Note that each process needs ~1GB of RAM also)
-PROCESSES           = 4
+PROCESSES           = 8
 # How many demonstrations (picking and pouring) should each process collect? 
 SAMPLES_PER_PROCESS = 10
 # Ever n demonstrations, VRep will be restarted entirely, not just the simulation. You don't need to change this
-RESET_EACH          = 20
+RESET_EACH          = 20 
 # If you run more than 1 process, you should run VRep headless
 VREP_HEADLESS       = True
 # Default position of the UR5 robot. You do not need to change this
 DEFAULT_UR5_JOINTS  = [105.0, -30.0, 120.0, 90.0, 60.0, 90.0]
 # Path to the UR5 URDF file
-ROBOT_URDF          = "../GDrive/ur5_robot.urdf"
+ROBOT_URDF          = "/home/sikhdragon/Documents/CSE598/LanguagePolicies/GDrive/ur5_robot.urdf"
 # General speed of the robot. Lower values will increase the robot's movement speed
 TGEN_SPEED_FACTOR   = 150
 # Height at which to grasp the cups. You do not need to change this.
 GRASP_HEIGHT        = 0.115
 # Output directory of the collected data
-DATA_PATH           = "../GDrive/collected/"
+DATA_PATH           = "/home/sikhdragon/Documents/CSE598/LanguagePolicies/GDrive/collected/"
 # Where to find the VRep scene file. This has to be an absolute path. 
-VREP_SCENE          = "../GDrive/NeurIPS2020.ttt"
-VREP_SCENE          = os.getcwd() + "/" + VREP_SCENE
+VREP_SCENE          = "/home/sikhdragon/Documents/CSE598/LanguagePolicies/GDrive/NeurIPS2020.ttt"
+# VREP_SCENE          = os.getcwd() + "/" + VREP_SCENE
 
 class SimulatorState(object):
     def __init__(self, array):
@@ -298,9 +298,29 @@ def _generatePouring(robot, current, rot):
 
     return trj
 
+def _generateOffset(task, target, angle):
+    size = Voice(load=False).getBowlSize(task["target/id"])
+    offset = 0.10
+    if size == "large":
+        offset += 0.075
+    direction = task["amount"]
+    if direction == 1:
+        target[0] += offset * np.cos(angle)
+        target[1] += offset * np.sin(angle)
+    elif direction == 2:
+        target[0] -= offset * np.cos(angle)
+        target[1] -= offset * np.sin(angle)
+    elif direction == 3:
+        target[0] += offset * np.sin(angle)
+        target[1] -= offset * np.cos(angle)
+    else:
+        target[0] -= offset * np.sin(angle)
+        target[1] += offset * np.cos(angle)
+    return target
+
 def _setupTask(phase, env, robot, current):
     task           = {}
-    task["amount"] = np.random.choice([180, 110])
+    task["amount"] = np.random.choice([1, 2, 3, 4])
     ints, floats   = env
     nbowls         = ints[0]
     ncups          = ints[1]
@@ -347,7 +367,17 @@ def _setupTask(phase, env, robot, current):
         rot[0]    += _calculateAngle(target[0], target[1])
         waypoints += getCollisionWaypoints(robot, current_pos, target)
         waypoints.append(("J", target, rot))
-        waypoints.append(("P", None, np.deg2rad(task["amount"])))
+        target = _generateOffset(task, target, rot[0])
+        rot       = [r for r in original_rot]
+        rot[0]    += _calculateAngle(target[0], target[1])
+        waypoints.append(("L", target, rot))
+        target2     = [t for t in target]
+        target2[2] -= 0.10
+        waypoints.append(("L", target2, rot))
+        waypoints.append(("O", None, None))
+        target3     = [t for t in target]
+        target3[2] += 0.10
+        waypoints.append(("L", target3, rot))
         waypoints.append(("I", 40, None))
 
     trajectory       = np.zeros((1,7), dtype=np.float32)
@@ -365,6 +395,10 @@ def _setupTask(phase, env, robot, current):
             part = np.tile(trajectory[-1,:],reps=[30,1])
             part[:,-1] = 1.0
             grasp_active = True
+        elif wp[0] == "O": # Open gripper
+            part = np.tile(trajectory[-1,:],reps=[30,1])
+            part[:,-1] = 0.0
+            grasp_active = False
         elif wp[0] == "P": # Do pouring motion
             part = _generatePouring(robot, trajectory[-1,:], wp[2])
         elif wp[0] == "I": # Idle a little
@@ -481,5 +515,7 @@ if __name__ == "__main__":
     # processes = [Process(target=run, args=()) for i in range(PROCESSES)]
     # [p.start() for p in processes]
     # [p.join() for p in processes]
-
-    Parallel(n_jobs=PROCESSES)(delayed(run)() for i in range(PROCESSES))
+    for i in range(50):
+        Parallel(n_jobs=PROCESSES)(delayed(run)() for i in range(PROCESSES))
+        print(f'Sleep {i}')
+        time.sleep(5)

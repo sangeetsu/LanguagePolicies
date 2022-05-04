@@ -1,0 +1,23 @@
+[0.011s] Invoking command in '/home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation': /usr/bin/cmake /home/sangeetsu/irlsim/LanguagePolicies/ros2/src/policy_translation -DCMAKE_INSTALL_PREFIX=/home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation
+[0.021s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[0.039s] -- Found PythonInterp: /home/sangeetsu/miniconda3/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.039s] -- Using PYTHON_EXECUTABLE: /home/sangeetsu/miniconda3/bin/python3
+[0.062s] Traceback (most recent call last):
+[0.062s]   File "/opt/ros/eloquent/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.063s]     from ament_package.templates import get_environment_hook_template_path
+[0.063s] ModuleNotFoundError: No module named 'ament_package'
+[0.065s] CMake Error at /opt/ros/eloquent/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.066s]   execute_process(/home/sangeetsu/miniconda3/bin/python3
+[0.066s]   /opt/ros/eloquent/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.066s]   /home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation/ament_cmake_package_templates/templates.cmake)
+[0.066s]   returned error code 1
+[0.066s] Call Stack (most recent call first):
+[0.066s]   /opt/ros/eloquent/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:38 (include)
+[0.066s]   /opt/ros/eloquent/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.066s]   /opt/ros/eloquent/share/ament_cmake/cmake/ament_cmakeConfig.cmake:38 (include)
+[0.066s]   CMakeLists.txt:19 (find_package)
+[0.066s] 
+[0.066s] 
+[0.067s] -- Configuring incomplete, errors occurred!
+[0.067s] See also "/home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation/CMakeFiles/CMakeOutput.log".
+[0.068s] Invoked command in '/home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation' returned '1': /usr/bin/cmake /home/sangeetsu/irlsim/LanguagePolicies/ros2/src/policy_translation -DCMAKE_INSTALL_PREFIX=/home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation

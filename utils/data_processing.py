@@ -75,8 +75,7 @@ class DataConverter():
             files = files[:max_samples]
 
         for idx, filepath in enumerate(files):
-            if idx % 100 == 0:
-                print(" {:5d}/{:5d}".format(idx, len(files)))
+            print(" {:5d}/{:5d}".format(idx, len(files)), end="\r")
 
             tf_example = self.createTfExample(*self.loadDemonstrationFromFile(filepath))
             writer.write(tf_example.SerializeToString())
@@ -251,7 +250,12 @@ class DataConverter():
         return tokens, features, trajectory_in, trajectory_out, trajectory_length, dt, onehot, dmp_w.flatten()
 
 if __name__ == '__main__':
+    print("Starting data processing...")
+    gpu_options = tf.compat.v1.GPUOptions(per_process_gpu_memory_fraction=0.4)
+    session = tf.compat.v1.Session(config=tf.compat.v1.ConfigProto(gpu_options=gpu_options))
     limitGPUMemory()
+    tf.config.threading.set_intra_op_parallelism_threads(8)
+    tf.config.threading.set_inter_op_parallelism_threads(8)
     # Specify where GloVe and FRCNN can be found
     dc = DataConverter(dict_path="../GDrive/glove.6B.50d.txt", frcnn_path="../GDrive/rcnn/saved_model")
 
@@ -264,18 +268,30 @@ if __name__ == '__main__':
     # Specify where the raw data can be found and where you want the validation data to be saved
     # Also specify how many samples should be part of the validation data
     # Note: Depending on how many data your have, you should leave some for training
-    dc.createRecord(
-        raw="../GDrive/collected/*.json",
-        out="../GDrive/validate_custom.tfrecord",
-        max_samples=4000
-        )
+    # dc.createRecord(
+    #     raw="../GDrive/collected/*.json",
+    #     out="../GDrive/validate_custom.tfrecord",
+    #     max_samples=1279
+    #     )
 
     # Specify where the raw data can be found and where you want the training data to be saved
     # Also specify how many samples should be part of the training data.
     # Please also set min_samples to remove the data used for validation from the training data
-    dc.createRecord(
-        raw="../GDrive/collected/*.json",
-        out="../GDrive/train_custom.tfrecord",
-        min_samples=4000,
-        max_samples=40000
-        )
+    start_samples = 1279
+    i = 18
+    print("Starting set " + str(i + 1))
+    min_samples = start_samples + (i * 500)
+    print(f'Starting at index: {min_samples}')
+    dc.createRecord(raw="../GDrive/collected/*.json", out="../GDrive/train_custom" + str(i + 1) + ".tfrecord",
+                    min_samples=min_samples, max_samples=500)
+    print(" ")
+    print("Finished set " + str(i + 1))
+    
+    i += 1
+    print("Starting set " + str(i + 1))
+    min_samples = start_samples + (i * 500)
+    print(f'Starting at index: {min_samples}')
+    dc.createRecord(raw="../GDrive/collected/*.json", out="../GDrive/train_custom" + str(i + 1) + ".tfrecord",
+                    min_samples=min_samples, max_samples=500)
+    print(" ")
+    print("Finished set " + str(i + 1))

@@ -1,0 +1,141 @@
+[0.000000] (-) TimerEvent: {}
+[0.000174] (policy_translation) JobQueued: {'identifier': 'policy_translation', 'dependencies': OrderedDict()}
+[0.000608] (policy_translation) JobStarted: {'identifier': 'policy_translation'}
+[0.012872] (policy_translation) JobProgress: {'identifier': 'policy_translation', 'progress': 'cmake'}
+[0.013607] (policy_translation) Command: {'cmd': ['/usr/bin/cmake', '/home/sangeetsu/irlsim/LanguagePolicies/ros2/src/policy_translation', '-DCMAKE_INSTALL_PREFIX=/home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation'], 'cwd': '/home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation', 'env': OrderedDict([('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'sangeetsu'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('SSH_AGENT_PID', '10633'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib:/home/sangeetsu/irlsim/CoppeliaSim_Edu_V4_1_0_Ubuntu18_04'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/sangeetsu'), ('OLDPWD', '/home/sangeetsu/irlsim/LanguagePolicies'), ('LESS', '-R'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/sangeetsu/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COPPELIASIM_ROOT', '/home/sangeetsu/irlsim/CoppeliaSim_Edu_V4_1_0_Ubuntu18_04'), ('QT_QPA_PLATFORM_PLUGIN_PATH', '/home/sangeetsu/irlsim/CoppeliaSim_Edu_V4_1_0_Ubuntu18_04'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('COLCON_PREFIX_PATH', '/home/sangeetsu/irlsim/LanguagePolicies:/home/sangeetsu/irlsim/LanguagePolicies/ros2:/home/sangeetsu/irlsim/LanguagePolicies/ros2/install'), ('LOGNAME', 'sangeetsu'), ('GTK_IM_MODULE', 'ibus'), ('DESKTOP_AUTOSTART_ID', '106968757c75c4153d164818443754019400000105350007'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '40'), ('USERNAME', 'sangeetsu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/home/sangeetsu/miniconda3/bin:/home/sangeetsu/miniconda3/condabin:/home/sangeetsu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ssu-prec-tower:@/tmp/.ICE-unix/10535,unix/ssu-prec-tower:/tmp/.ICE-unix/10535'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d5f1087e_91f6_405a_b7e0_f5901aae5c2d'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.272'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('CONDA_PYTHON_EXE', '/home/sangeetsu/miniconda3/bin/python'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SHELL', '/usr/bin/zsh'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('CONDA_DEFAULT_ENV', 'base'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/sangeetsu/.local/share/flatpak/exports/share/:/var/lib/flatpak/exports/share/:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLUTTER_IM_MODULE', 'xim'), ('CONDA_EXE', '/home/sangeetsu/miniconda3/bin/conda'), ('UE4_ROOT', '/home/sangeetsu/UnrealEngine_4.26'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('CONDA_PREFIX', '/home/sangeetsu/miniconda3'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[0.031891] (policy_translation) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)\n'}
+[0.052984] (policy_translation) StdoutLine: {'line': b'-- Found PythonInterp: /home/sangeetsu/miniconda3/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[0.053273] (policy_translation) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/sangeetsu/miniconda3/bin/python3\n'}
+[0.099688] (-) TimerEvent: {}
+[0.200075] (-) TimerEvent: {}
+[0.220533] (policy_translation) StdoutLine: {'line': b'-- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)\n'}
+[0.278125] (policy_translation) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)\n'}
+[0.300211] (-) TimerEvent: {}
+[0.342115] (policy_translation) StdoutLine: {'line': b'-- Found sensor_msgs: 0.8.1 (/opt/ros/eloquent/share/sensor_msgs/cmake)\n'}
+[0.400309] (-) TimerEvent: {}
+[0.407045] (policy_translation) StdoutLine: {'line': b'-- Found PythonInterp: /home/sangeetsu/miniconda3/bin/python3 (found version "3.8.5") \n'}
+[0.500430] (-) TimerEvent: {}
+[0.600736] (-) TimerEvent: {}
+[0.636411] (policy_translation) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c\n'}
+[0.699489] (policy_translation) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp\n'}
+[0.700838] (-) TimerEvent: {}
+[0.801153] (-) TimerEvent: {}
+[0.901462] (-) TimerEvent: {}
+[1.001782] (-) TimerEvent: {}
+[1.102084] (-) TimerEvent: {}
+[1.150908] (policy_translation) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)\n'}
+[1.185154] (policy_translation) StdoutLine: {'line': b'-- Found PythonInterp: /home/sangeetsu/miniconda3/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") \n'}
+[1.187587] (policy_translation) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.0 (/opt/ros/eloquent/share/python_cmake_module/cmake)\n'}
+[1.202205] (-) TimerEvent: {}
+[1.221971] (policy_translation) StdoutLine: {'line': b'-- Found PythonLibs: /home/sangeetsu/miniconda3/lib/libpython3.8.so (found suitable version "3.8.5", minimum required is "3.5") \n'}
+[1.222357] (policy_translation) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/sangeetsu/miniconda3/bin/python3\n'}
+[1.222706] (policy_translation) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /home/sangeetsu/miniconda3/include/python3.8\n'}
+[1.223080] (policy_translation) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /home/sangeetsu/miniconda3/lib/libpython3.8.so\n'}
+[1.246116] (policy_translation) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.302319] (-) TimerEvent: {}
+[1.402709] (-) TimerEvent: {}
+[1.503093] (-) TimerEvent: {}
+[1.513676] (policy_translation) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.8.2 (/opt/ros/eloquent/share/ament_lint_auto/cmake)\n'}
+[1.549863] (policy_translation) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.551825] (policy_translation) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.558059] (policy_translation) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.603253] (-) TimerEvent: {}
+[1.703712] (-) TimerEvent: {}
+[1.781372] (policy_translation) StderrLine: {'line': b'CMake Warning at /opt/ros/eloquent/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:229 (add_library):\n'}
+[1.781795] (policy_translation) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[1.781969] (policy_translation) StderrLine: {'line': b'  policy_translation__rosidl_typesupport_fastrtps_c__pyext because files in\n'}
+[1.782119] (policy_translation) StderrLine: {'line': b'  some directories may conflict with libraries in implicit directories:\n'}
+[1.782263] (policy_translation) StderrLine: {'line': b'\n'}
+[1.782406] (policy_translation) StderrLine: {'line': b'    runtime library [libssl.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[1.782554] (policy_translation) StderrLine: {'line': b'      /home/sangeetsu/miniconda3/lib\n'}
+[1.782700] (policy_translation) StderrLine: {'line': b'    runtime library [libcrypto.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[1.782839] (policy_translation) StderrLine: {'line': b'      /home/sangeetsu/miniconda3/lib\n'}
+[1.782980] (policy_translation) StderrLine: {'line': b'\n'}
+[1.783124] (policy_translation) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[1.783262] (policy_translation) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.783393] (policy_translation) StderrLine: {'line': b'  /opt/ros/eloquent/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.783537] (policy_translation) StderrLine: {'line': b'  /opt/ros/eloquent/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[1.783688] (policy_translation) StderrLine: {'line': b'  CMakeLists.txt:26 (rosidl_generate_interfaces)\n'}
+[1.783833] (policy_translation) StderrLine: {'line': b'\n'}
+[1.783978] (policy_translation) StderrLine: {'line': b'\n'}
+[1.803834] (-) TimerEvent: {}
+[1.830748] (policy_translation) StderrLine: {'line': b'CMake Warning at /opt/ros/eloquent/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:176 (add_library):\n'}
+[1.831018] (policy_translation) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[1.831152] (policy_translation) StderrLine: {'line': b'  policy_translation__python because files in some directories may conflict\n'}
+[1.831303] (policy_translation) StderrLine: {'line': b'  with libraries in implicit directories:\n'}
+[1.831433] (policy_translation) StderrLine: {'line': b'\n'}
+[1.831548] (policy_translation) StderrLine: {'line': b'    runtime library [libssl.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[1.831666] (policy_translation) StderrLine: {'line': b'      /home/sangeetsu/miniconda3/lib\n'}
+[1.831785] (policy_translation) StderrLine: {'line': b'    runtime library [libcrypto.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[1.831908] (policy_translation) StderrLine: {'line': b'      /home/sangeetsu/miniconda3/lib\n'}
+[1.832032] (policy_translation) StderrLine: {'line': b'\n'}
+[1.832146] (policy_translation) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[1.832268] (policy_translation) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.832382] (policy_translation) StderrLine: {'line': b'  /opt/ros/eloquent/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.832506] (policy_translation) StderrLine: {'line': b'  /opt/ros/eloquent/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[1.832621] (policy_translation) StderrLine: {'line': b'  CMakeLists.txt:26 (rosidl_generate_interfaces)\n'}
+[1.832737] (policy_translation) StderrLine: {'line': b'\n'}
+[1.832851] (policy_translation) StderrLine: {'line': b'\n'}
+[1.860326] (policy_translation) StderrLine: {'line': b'CMake Warning at /opt/ros/eloquent/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:229 (add_library):\n'}
+[1.860629] (policy_translation) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[1.860796] (policy_translation) StderrLine: {'line': b'  policy_translation__rosidl_typesupport_c__pyext because files in some\n'}
+[1.860937] (policy_translation) StderrLine: {'line': b'  directories may conflict with libraries in implicit directories:\n'}
+[1.861090] (policy_translation) StderrLine: {'line': b'\n'}
+[1.861210] (policy_translation) StderrLine: {'line': b'    runtime library [libssl.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[1.861329] (policy_translation) StderrLine: {'line': b'      /home/sangeetsu/miniconda3/lib\n'}
+[1.861441] (policy_translation) StderrLine: {'line': b'    runtime library [libcrypto.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[1.861564] (policy_translation) StderrLine: {'line': b'      /home/sangeetsu/miniconda3/lib\n'}
+[1.861691] (policy_translation) StderrLine: {'line': b'\n'}
+[1.861813] (policy_translation) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[1.862255] (policy_translation) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.862403] (policy_translation) StderrLine: {'line': b'  /opt/ros/eloquent/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.862539] (policy_translation) StderrLine: {'line': b'  /opt/ros/eloquent/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[1.862671] (policy_translation) StderrLine: {'line': b'  CMakeLists.txt:26 (rosidl_generate_interfaces)\n'}
+[1.862799] (policy_translation) StderrLine: {'line': b'\n'}
+[1.862927] (policy_translation) StderrLine: {'line': b'\n'}
+[1.871772] (policy_translation) StdoutLine: {'line': b'-- Generating done\n'}
+[1.877253] (policy_translation) StdoutLine: {'line': b'-- Build files have been written to: /home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation\n'}
+[1.886496] (policy_translation) CommandEnded: {'returncode': 0}
+[1.887907] (policy_translation) JobProgress: {'identifier': 'policy_translation', 'progress': 'build'}
+[1.888804] (policy_translation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation', '--', '-j8', '-l8'], 'cwd': '/home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation', 'env': OrderedDict([('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'sangeetsu'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('SSH_AGENT_PID', '10633'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib:/home/sangeetsu/irlsim/CoppeliaSim_Edu_V4_1_0_Ubuntu18_04'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/sangeetsu'), ('OLDPWD', '/home/sangeetsu/irlsim/LanguagePolicies'), ('LESS', '-R'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/sangeetsu/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COPPELIASIM_ROOT', '/home/sangeetsu/irlsim/CoppeliaSim_Edu_V4_1_0_Ubuntu18_04'), ('QT_QPA_PLATFORM_PLUGIN_PATH', '/home/sangeetsu/irlsim/CoppeliaSim_Edu_V4_1_0_Ubuntu18_04'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('COLCON_PREFIX_PATH', '/home/sangeetsu/irlsim/LanguagePolicies:/home/sangeetsu/irlsim/LanguagePolicies/ros2:/home/sangeetsu/irlsim/LanguagePolicies/ros2/install'), ('LOGNAME', 'sangeetsu'), ('GTK_IM_MODULE', 'ibus'), ('DESKTOP_AUTOSTART_ID', '106968757c75c4153d164818443754019400000105350007'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '40'), ('USERNAME', 'sangeetsu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/home/sangeetsu/miniconda3/bin:/home/sangeetsu/miniconda3/condabin:/home/sangeetsu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ssu-prec-tower:@/tmp/.ICE-unix/10535,unix/ssu-prec-tower:/tmp/.ICE-unix/10535'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d5f1087e_91f6_405a_b7e0_f5901aae5c2d'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.272'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('CONDA_PYTHON_EXE', '/home/sangeetsu/miniconda3/bin/python'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SHELL', '/usr/bin/zsh'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('CONDA_DEFAULT_ENV', 'base'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/sangeetsu/.local/share/flatpak/exports/share/:/var/lib/flatpak/exports/share/:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLUTTER_IM_MODULE', 'xim'), ('CONDA_EXE', '/home/sangeetsu/miniconda3/bin/conda'), ('UE4_ROOT', '/home/sangeetsu/UnrealEngine_4.26'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('CONDA_PREFIX', '/home/sangeetsu/miniconda3'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[1.903978] (-) TimerEvent: {}
+[1.960387] (policy_translation) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target policy_translation__cpp\x1b[0m\n'}
+[1.978166] (policy_translation) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.985394] (policy_translation) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.004093] (-) TimerEvent: {}
+[2.044734] (policy_translation) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[2.045240] (policy_translation) StderrLine: {'line': b'  File "/opt/ros/eloquent/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 8, in <module>\n'}
+[2.045448] (policy_translation) StderrLine: {'line': b'    from rosidl_generator_c import generate_c\n'}
+[2.045594] (policy_translation) StderrLine: {'line': b'  File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_generator_c/__init__.py", line 15, in <module>\n'}
+[2.045734] (policy_translation) StderrLine: {'line': b'    from rosidl_cmake import convert_camel_case_to_lower_case_underscore\n'}
+[2.045864] (policy_translation) StderrLine: {'line': b'  File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_cmake/__init__.py", line 24, in <module>\n'}
+[2.045993] (policy_translation) StderrLine: {'line': b'    from rosidl_parser.parser import parse_idl_file\n'}
+[2.046121] (policy_translation) StderrLine: {'line': b'  File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_parser/parser.py", line 20, in <module>\n'}
+[2.046262] (policy_translation) StderrLine: {'line': b'    from lark import Lark\n'}
+[2.046392] (policy_translation) StderrLine: {'line': b"ModuleNotFoundError: No module named 'lark'\n"}
+[2.059605] (policy_translation) StdoutLine: {'line': b"CMakeFiles/policy_translation__rosidl_generator_c.dir/build.make:165: recipe for target 'rosidl_generator_c/policy_translation/srv/network_pt.h' failed\n"}
+[2.060015] (policy_translation) StderrLine: {'line': b'make[2]: *** [rosidl_generator_c/policy_translation/srv/network_pt.h] Error 1\n'}
+[2.060230] (policy_translation) StdoutLine: {'line': b"CMakeFiles/Makefile2:291: recipe for target 'CMakeFiles/policy_translation__rosidl_generator_c.dir/all' failed\n"}
+[2.060639] (policy_translation) StderrLine: {'line': b'make[1]: *** [CMakeFiles/policy_translation__rosidl_generator_c.dir/all] Error 2\n'}
+[2.060904] (policy_translation) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[2.063996] (policy_translation) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[2.064478] (policy_translation) StderrLine: {'line': b'  File "/opt/ros/eloquent/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 8, in <module>\n'}
+[2.064669] (policy_translation) StderrLine: {'line': b'    from rosidl_generator_cpp import generate_cpp\n'}
+[2.064845] (policy_translation) StderrLine: {'line': b'  File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_generator_cpp/__init__.py", line 17, in <module>\n'}
+[2.065128] (policy_translation) StderrLine: {'line': b'    from rosidl_cmake import generate_files\n'}
+[2.065367] (policy_translation) StderrLine: {'line': b'  File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_cmake/__init__.py", line 24, in <module>\n'}
+[2.065594] (policy_translation) StderrLine: {'line': b'    from rosidl_parser.parser import parse_idl_file\n'}
+[2.065784] (policy_translation) StderrLine: {'line': b'  File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_parser/parser.py", line 20, in <module>\n'}
+[2.065959] (policy_translation) StderrLine: {'line': b'    from lark import Lark\n'}
+[2.066184] (policy_translation) StderrLine: {'line': b"ModuleNotFoundError: No module named 'lark'\n"}
+[2.072607] (policy_translation) StdoutLine: {'line': b"CMakeFiles/policy_translation__cpp.dir/build.make:170: recipe for target 'rosidl_generator_cpp/policy_translation/srv/network_pt.hpp' failed\n"}
+[2.073043] (policy_translation) StderrLine: {'line': b'make[2]: *** [rosidl_generator_cpp/policy_translation/srv/network_pt.hpp] Error 1\n'}
+[2.073215] (policy_translation) StdoutLine: {'line': b"CMakeFiles/Makefile2:328: recipe for target 'CMakeFiles/policy_translation__cpp.dir/all' failed\n"}
+[2.073343] (policy_translation) StderrLine: {'line': b'make[1]: *** [CMakeFiles/policy_translation__cpp.dir/all] Error 2\n'}
+[2.073465] (policy_translation) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[2.073587] (policy_translation) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[2.075160] (policy_translation) CommandEnded: {'returncode': 2}
+[2.104231] (-) TimerEvent: {}
+[2.204789] (-) TimerEvent: {}
+[2.211034] (policy_translation) JobEnded: {'identifier': 'policy_translation', 'rc': 2}
+[2.222169] (-) EventReactorShutdown: {}

@@ -1,0 +1,45 @@
+[0.019s] Invoking command in '/home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation': CMAKE_PREFIX_PATH=/opt/ros/eloquent CONDA_PROMPT_MODIFIER=(irlsim) /usr/bin/cmake /home/sangeetsu/irlsim/LanguagePolicies/ros2/src/policy_translation -DCMAKE_INSTALL_PREFIX=/home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation
+[0.038s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[0.067s] -- Found PythonInterp: /home/sangeetsu/miniconda3/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.067s] -- Using PYTHON_EXECUTABLE: /home/sangeetsu/miniconda3/bin/python3
+[0.248s] -- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)
+[0.305s] -- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[0.369s] -- Found sensor_msgs: 0.8.1 (/opt/ros/eloquent/share/sensor_msgs/cmake)
+[0.420s] -- Found PythonInterp: /home/sangeetsu/miniconda3/bin/python3 (found version "3.8.5") 
+[0.466s] CMake Error at /opt/ros/eloquent/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[0.466s]   execute_process(/home/sangeetsu/miniconda3/bin/python3 -m rosidl_adapter
+[0.466s]   --package-name policy_translation --arguments-file
+[0.466s]   /home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation/rosidl_adapter__arguments__policy_translation.json
+[0.466s]   --output-dir
+[0.466s]   /home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation/rosidl_adapter/policy_translation
+[0.466s]   --output-file
+[0.467s]   /home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation/rosidl_adapter/policy_translation.idls)
+[0.467s]   returned error code 1:
+[0.467s] 
+[0.467s]   Traceback (most recent call last):
+[0.467s] 
+[0.467s]     File "/home/sangeetsu/miniconda3/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[0.467s]       return _run_code(code, main_globals, None,
+[0.467s]     File "/home/sangeetsu/miniconda3/lib/python3.8/runpy.py", line 87, in _run_code
+[0.467s]       exec(code, run_globals)
+[0.467s]     File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.467s]       sys.exit(main())
+[0.467s]     File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.468s]       abs_idl_file = convert_to_idl(
+[0.468s]     File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/__init__.py", line 23, in convert_to_idl
+[0.468s]       from rosidl_adapter.srv import convert_srv_to_idl
+[0.468s]     File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/srv/__init__.py", line 16, in <module>
+[0.468s]       from rosidl_adapter.resource import expand_template
+[0.468s]     File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>
+[0.468s]       import em
+[0.468s] 
+[0.468s]   ModuleNotFoundError: No module named 'em'
+[0.468s] 
+[0.468s] Call Stack (most recent call first):
+[0.469s]   /opt/ros/eloquent/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.469s]   CMakeLists.txt:26 (rosidl_generate_interfaces)
+[0.469s] 
+[0.469s] 
+[0.469s] -- Configuring incomplete, errors occurred!
+[0.469s] See also "/home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation/CMakeFiles/CMakeOutput.log".
+[0.471s] Invoked command in '/home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation' returned '1': CMAKE_PREFIX_PATH=/opt/ros/eloquent CONDA_PROMPT_MODIFIER=(irlsim) /usr/bin/cmake /home/sangeetsu/irlsim/LanguagePolicies/ros2/src/policy_translation -DCMAKE_INSTALL_PREFIX=/home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation

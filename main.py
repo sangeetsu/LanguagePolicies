@@ -16,9 +16,10 @@ import os.path
 import sys
 
 # Location of the training data
-TRAIN_DATA      = "../GDrive/train.tfrecord"
+TRAIN_DATA      = glob.glob('/home/sangeetsu/irlsim/LanguagePolicies/GDrive/train_custom*')
+print(len(TRAIN_DATA))
 # Location of the validation data
-VALIDATION_DATA = "../GDrive/validate.tfrecord"
+VALIDATION_DATA = "/home/sangeetsu/irlsim/LanguagePolicies/GDrive/validate_custom.tfrecord"
 # Location of the GloVe word embeddings
 GLOVE_PATH      = "../GDrive/glove.6B.50d.txt"
 # Learning rate for the adam optimizer

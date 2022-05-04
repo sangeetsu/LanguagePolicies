@@ -1,0 +1,153 @@
+[0.015s] Invoking command in '/home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation -- -j8 -l8
+[0.088s] [ 11%] Built target policy_translation__rosidl_generator_c
+[0.101s] [ 13%] Built target policy_translation__cpp
+[0.124s] [ 24%] Built target policy_translation__rosidl_typesupport_introspection_c
+[0.138s] [ 35%] Built target policy_translation__rosidl_typesupport_fastrtps_cpp
+[0.140s] [ 46%] Built target policy_translation__rosidl_typesupport_introspection_cpp
+[0.172s] [ 57%] Built target policy_translation__rosidl_typesupport_cpp
+[0.178s] [ 68%] Built target policy_translation__rosidl_typesupport_fastrtps_c
+[0.209s] [ 80%] Built target policy_translation__rosidl_typesupport_c
+[0.232s] [ 80%] Built target policy_translation
+[0.254s] [ 82%] Built target policy_translation__py
+[0.289s] [ 91%] Built target policy_translation__python
+[0.318s] [100%] Built target policy_translation__rosidl_typesupport_fastrtps_c__pyext
+[0.318s] [100%] Built target policy_translation__rosidl_typesupport_c__pyext
+[0.330s] Invoked command in '/home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation -- -j8 -l8
+[0.428s] Invoking command in '/home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation --target install -- -j8 -l8
+[0.487s] [  2%] Built target policy_translation__cpp
+[0.493s] [ 13%] Built target policy_translation__rosidl_generator_c
+[0.522s] [ 24%] Built target policy_translation__rosidl_typesupport_introspection_cpp
+[0.523s] [ 35%] Built target policy_translation__rosidl_typesupport_fastrtps_cpp
+[0.525s] [ 46%] Built target policy_translation__rosidl_typesupport_introspection_c
+[0.557s] [ 57%] Built target policy_translation__rosidl_typesupport_fastrtps_c
+[0.558s] [ 68%] Built target policy_translation__rosidl_typesupport_cpp
+[0.588s] [ 80%] Built target policy_translation__rosidl_typesupport_c
+[0.610s] [ 80%] Built target policy_translation
+[0.635s] [ 82%] Built target policy_translation__py
+[0.674s] [ 91%] Built target policy_translation__python
+[0.710s] [ 95%] Built target policy_translation__rosidl_typesupport_c__pyext
+[0.712s] [100%] Built target policy_translation__rosidl_typesupport_fastrtps_c__pyext
+[0.742s] [36mInstall the project...[0m
+[0.752s] -- Install configuration: ""
+[0.752s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/share/ament_index/resource_index/rosidl_interfaces/policy_translation
+[0.753s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/lib/libpolicy_translation__rosidl_typesupport_c.so
+[0.753s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/share/policy_translation/environment/library_path.sh
+[0.753s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/share/policy_translation/environment/library_path.dsv
+[0.753s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/lib/libpolicy_translation__rosidl_typesupport_cpp.so
+[0.754s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation
+[0.754s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/msg
+[0.754s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.754s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/msg/dummy__rosidl_typesupport_fastrtps_c.h
+[0.754s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/srv
+[0.754s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/srv/network_pt__rosidl_typesupport_fastrtps_c.h
+[0.755s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/srv/tune_network__rosidl_typesupport_fastrtps_c.h
+[0.755s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/lib/libpolicy_translation__rosidl_typesupport_fastrtps_c.so
+[0.755s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation
+[0.755s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/msg
+[0.756s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/msg/dummy__type_support.h
+[0.756s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/msg/dummy__functions.c
+[0.756s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/msg/dummy__struct.h
+[0.756s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/msg/dummy.h
+[0.756s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/msg/rosidl_generator_c__visibility_control.h
+[0.756s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/msg/dummy__functions.h
+[0.757s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/srv
+[0.757s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/srv/network_pt.h
+[0.757s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/srv/tune_network__type_support.h
+[0.757s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/srv/network_pt__functions.h
+[0.757s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/srv/network_pt__struct.h
+[0.757s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/srv/network_pt__functions.c
+[0.758s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/srv/tune_network__functions.h
+[0.758s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/srv/tune_network__functions.c
+[0.758s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/srv/network_pt__type_support.h
+[0.759s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/srv/tune_network__struct.h
+[0.759s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/srv/tune_network.h
+[0.759s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/lib/libpolicy_translation__rosidl_generator_c.so
+[0.759s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation
+[0.759s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/msg
+[0.759s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/msg/dummy__rosidl_typesupport_fastrtps_cpp.hpp
+[0.760s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/msg/dds_fastrtps
+[0.760s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.760s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/srv
+[0.760s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/srv/tune_network__rosidl_typesupport_fastrtps_cpp.hpp
+[0.760s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/srv/dds_fastrtps
+[0.760s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/srv/network_pt__rosidl_typesupport_fastrtps_cpp.hpp
+[0.761s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/lib/libpolicy_translation__rosidl_typesupport_fastrtps_cpp.so
+[0.761s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation
+[0.761s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/msg
+[0.761s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/msg/dummy.hpp
+[0.761s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/msg/dummy__traits.hpp
+[0.761s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/msg/dummy__struct.hpp
+[0.761s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/srv
+[0.762s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/srv/tune_network.hpp
+[0.762s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/srv/network_pt__struct.hpp
+[0.762s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/srv/network_pt__traits.hpp
+[0.762s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/srv/tune_network__traits.hpp
+[0.762s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/srv/tune_network__struct.hpp
+[0.762s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/srv/network_pt.hpp
+[0.763s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation
+[0.763s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/msg
+[0.763s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/msg/dummy__type_support.c
+[0.763s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.763s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/msg/dummy__rosidl_typesupport_introspection_c.h
+[0.763s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/srv
+[0.763s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/srv/network_pt__type_support.c
+[0.764s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/srv/tune_network__type_support.c
+[0.764s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/srv/tune_network__rosidl_typesupport_introspection_c.h
+[0.764s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/srv/network_pt__rosidl_typesupport_introspection_c.h
+[0.764s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/lib/libpolicy_translation__rosidl_typesupport_introspection_c.so
+[0.764s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation
+[0.764s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/msg
+[0.765s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/msg/dummy__type_support.cpp
+[0.765s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/msg/dummy__rosidl_typesupport_introspection_cpp.hpp
+[0.765s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/srv
+[0.765s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/srv/network_pt__type_support.cpp
+[0.765s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/srv/tune_network__rosidl_typesupport_introspection_cpp.hpp
+[0.765s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/srv/network_pt__rosidl_typesupport_introspection_cpp.hpp
+[0.765s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/include/policy_translation/srv/tune_network__type_support.cpp
+[0.766s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/lib/libpolicy_translation__rosidl_typesupport_introspection_cpp.so
+[0.766s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/share/policy_translation/environment/pythonpath.sh
+[0.766s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/share/policy_translation/environment/pythonpath.dsv
+[0.766s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/lib/python3.8/site-packages/policy_translation/__init__.py
+[0.802s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/lib/python3.8/site-packages/policy_translation/srv
+[0.802s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/lib/python3.8/site-packages/policy_translation/srv/_tune_network.py
+[0.802s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/lib/python3.8/site-packages/policy_translation/srv/__init__.py
+[0.802s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/lib/python3.8/site-packages/policy_translation/srv/_network_pt.py
+[0.802s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/lib/python3.8/site-packages/policy_translation/srv/_network_pt_s.c
+[0.803s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/lib/python3.8/site-packages/policy_translation/srv/_tune_network_s.c
+[0.803s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/lib/python3.8/site-packages/policy_translation/msg
+[0.803s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/lib/python3.8/site-packages/policy_translation/msg/_dummy_s.c
+[0.803s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/lib/python3.8/site-packages/policy_translation/msg/__init__.py
+[0.803s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/lib/python3.8/site-packages/policy_translation/msg/_dummy.py
+[0.803s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/lib/python3.8/site-packages/policy_translation/policy_translation_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.804s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/lib/python3.8/site-packages/policy_translation/policy_translation_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.804s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/lib/libpolicy_translation__python.so
+[0.805s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/share/policy_translation/srv/NetworkPT.idl
+[0.805s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/share/policy_translation/srv/TuneNetwork.idl
+[0.805s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/share/policy_translation/msg/Dummy.idl
+[0.806s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/share/policy_translation/srv/NetworkPT.srv
+[0.806s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/share/policy_translation/srv/NetworkPT_Request.msg
+[0.806s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/share/policy_translation/srv/NetworkPT_Response.msg
+[0.806s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/share/policy_translation/srv/TuneNetwork.srv
+[0.806s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/share/policy_translation/srv/TuneNetwork_Request.msg
+[0.807s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/share/policy_translation/srv/TuneNetwork_Response.msg
+[0.807s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/share/policy_translation/msg/Dummy.msg
+[0.807s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/share/ament_index/resource_index/package_run_dependencies/policy_translation
+[0.807s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/share/ament_index/resource_index/parent_prefix_path/policy_translation
+[0.807s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/share/policy_translation/environment/ament_prefix_path.sh
+[0.808s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/share/policy_translation/environment/ament_prefix_path.dsv
+[0.808s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/share/policy_translation/environment/path.sh
+[0.808s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/share/policy_translation/environment/path.dsv
+[0.808s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/share/policy_translation/local_setup.bash
+[0.808s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/share/policy_translation/local_setup.sh
+[0.808s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/share/policy_translation/local_setup.zsh
+[0.808s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/share/policy_translation/local_setup.dsv
+[0.809s] -- Installing: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/share/policy_translation/package.dsv
+[0.809s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/share/ament_index/resource_index/packages/policy_translation
+[0.809s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/share/policy_translation/cmake/rosidl_cmake-extras.cmake
+[0.809s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/share/policy_translation/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.809s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/share/policy_translation/cmake/ament_cmake_export_libraries-extras.cmake
+[0.809s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/share/policy_translation/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.809s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/share/policy_translation/cmake/policy_translationConfig.cmake
+[0.809s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/share/policy_translation/cmake/policy_translationConfig-version.cmake
+[0.810s] -- Up-to-date: /home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation/share/policy_translation/package.xml
+[0.812s] Invoked command in '/home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation --target install -- -j8 -l8

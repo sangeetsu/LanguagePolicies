@@ -1,0 +1,22 @@
+[0.011s] Invoking command in '/home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation': /usr/bin/cmake /home/sangeetsu/irlsim/LanguagePolicies/ros2/src/policy_translation -DCMAKE_INSTALL_PREFIX=/home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation
+[0.022s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[0.040s] -- Using PYTHON_EXECUTABLE: /home/sangeetsu/miniconda3/bin/python3
+[0.063s] Traceback (most recent call last):
+[0.063s]   File "/opt/ros/eloquent/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.064s]     from ament_package.templates import get_environment_hook_template_path
+[0.064s] ModuleNotFoundError: No module named 'ament_package'
+[0.066s] CMake Error at /opt/ros/eloquent/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.066s]   execute_process(/home/sangeetsu/miniconda3/bin/python3
+[0.066s]   /opt/ros/eloquent/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.067s]   /home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation/ament_cmake_package_templates/templates.cmake)
+[0.067s]   returned error code 1
+[0.067s] Call Stack (most recent call first):
+[0.067s]   /opt/ros/eloquent/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:38 (include)
+[0.067s]   /opt/ros/eloquent/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.067s]   /opt/ros/eloquent/share/ament_cmake/cmake/ament_cmakeConfig.cmake:38 (include)
+[0.067s]   CMakeLists.txt:19 (find_package)
+[0.068s] 
+[0.068s] 
+[0.068s] -- Configuring incomplete, errors occurred!
+[0.068s] See also "/home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation/CMakeFiles/CMakeOutput.log".
+[0.069s] Invoked command in '/home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation' returned '1': /usr/bin/cmake /home/sangeetsu/irlsim/LanguagePolicies/ros2/src/policy_translation -DCMAKE_INSTALL_PREFIX=/home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation

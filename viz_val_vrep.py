@@ -8,9 +8,9 @@ import pickle
 from utils.voice import Voice
 
 # Where to find the results file?
-FILE_PATH = "ours_full_cl.json"
+FILE_PATH = "val_result.json"
 # Where to find the normalization
-NORM_PATH = "../GDrive/normalization_v2.pkl"
+NORM_PATH = "/home/sangeetsu/irlsim/LanguagePolicies/GDrive/normalization_custom.pkl"
 
 normalization = pickle.load(open(NORM_PATH, mode="rb"), encoding="latin1")
 norm          = np.take(normalization["values"], indices=[0,1,2,3,4,5,30], axis=1)

@@ -1,0 +1,43 @@
+-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+-- Found PythonInterp: /home/sangeetsu/miniconda3/envs/irlsim/bin/python3 (found suitable version "3.6.13", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /home/sangeetsu/miniconda3/envs/irlsim/bin/python3
+-- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+-- Found sensor_msgs: 0.8.1 (/opt/ros/eloquent/share/sensor_msgs/cmake)
+-- Found PythonInterp: /home/sangeetsu/miniconda3/envs/irlsim/bin/python3 (found version "3.6.13") 
+CMake Error at /opt/ros/eloquent/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+  execute_process(/home/sangeetsu/miniconda3/envs/irlsim/bin/python3 -m
+  rosidl_adapter --package-name policy_translation --arguments-file
+  /home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation/rosidl_adapter__arguments__policy_translation.json
+  --output-dir
+  /home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation/rosidl_adapter/policy_translation
+  --output-file
+  /home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation/rosidl_adapter/policy_translation.idls)
+  returned error code 1:
+
+  Traceback (most recent call last):
+
+    File "/home/sangeetsu/miniconda3/envs/irlsim/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+      "__main__", mod_spec)
+    File "/home/sangeetsu/miniconda3/envs/irlsim/lib/python3.6/runpy.py", line 85, in _run_code
+      exec(code, run_globals)
+    File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+      sys.exit(main())
+    File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/main.py", line 55, in main
+      pathlib.Path(relative_path), output_dir)
+    File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/__init__.py", line 23, in convert_to_idl
+      from rosidl_adapter.srv import convert_srv_to_idl
+    File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/srv/__init__.py", line 16, in <module>
+      from rosidl_adapter.resource import expand_template
+    File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>
+      import em
+
+  ModuleNotFoundError: No module named 'em'
+
+Call Stack (most recent call first):
+  /opt/ros/eloquent/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+  CMakeLists.txt:26 (rosidl_generate_interfaces)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation/CMakeFiles/CMakeOutput.log".

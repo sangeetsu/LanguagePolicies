@@ -1,0 +1,112 @@
+[0.017s] Invoking command in '/home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation': CMAKE_PREFIX_PATH=/opt/ros/eloquent CONDA_PROMPT_MODIFIER=(irlsim) /usr/bin/cmake /home/sangeetsu/irlsim/LanguagePolicies/ros2/src/policy_translation -DCMAKE_INSTALL_PREFIX=/home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation
+[0.032s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[0.061s] -- Found PythonInterp: /home/sangeetsu/miniconda3/envs/irlsim/bin/python3 (found suitable version "3.6.13", minimum required is "3") 
+[0.061s] -- Using PYTHON_EXECUTABLE: /home/sangeetsu/miniconda3/envs/irlsim/bin/python3
+[0.245s] -- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)
+[0.305s] -- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[0.366s] -- Found sensor_msgs: 0.8.1 (/opt/ros/eloquent/share/sensor_msgs/cmake)
+[0.421s] -- Found PythonInterp: /home/sangeetsu/miniconda3/envs/irlsim/bin/python3 (found version "3.6.13") 
+[0.758s] -- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+[0.823s] -- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+[1.282s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[1.316s] -- Found PythonInterp: /home/sangeetsu/miniconda3/envs/irlsim/bin/python3 (found suitable version "3.6.13", minimum required is "3.5") 
+[1.317s] -- Found python_cmake_module: 0.8.0 (/opt/ros/eloquent/share/python_cmake_module/cmake)
+[1.349s] -- Found PythonLibs: /home/sangeetsu/miniconda3/envs/irlsim/lib/libpython3.6m.so (found suitable version "3.6.13", minimum required is "3.5") 
+[1.349s] -- Using PYTHON_EXECUTABLE: /home/sangeetsu/miniconda3/envs/irlsim/bin/python3
+[1.349s] -- Using PYTHON_INCLUDE_DIRS: /home/sangeetsu/miniconda3/envs/irlsim/include/python3.6m
+[1.349s] -- Using PYTHON_LIBRARIES: /home/sangeetsu/miniconda3/envs/irlsim/lib/libpython3.6m.so
+[1.375s] -- Found PythonExtra: .so  
+[1.572s] -- Found ament_lint_auto: 0.8.2 (/opt/ros/eloquent/share/ament_lint_auto/cmake)
+[1.593s] -- Added test 'lint_cmake' to check CMake code style
+[1.594s] -- Added test 'xmllint' to check XML markup files
+[1.598s] -- Configuring done
+[1.760s] CMake Warning at /opt/ros/eloquent/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:229 (add_library):
+[1.760s]   Cannot generate a safe runtime search path for target
+[1.760s]   policy_translation__rosidl_typesupport_fastrtps_c__pyext because files in
+[1.760s]   some directories may conflict with libraries in implicit directories:
+[1.760s] 
+[1.761s]     runtime library [libssl.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.761s]       /home/sangeetsu/miniconda3/envs/irlsim/lib
+[1.761s]     runtime library [libcrypto.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.761s]       /home/sangeetsu/miniconda3/envs/irlsim/lib
+[1.761s] 
+[1.761s]   Some of these libraries may not be found correctly.
+[1.761s] Call Stack (most recent call first):
+[1.761s]   /opt/ros/eloquent/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.762s]   /opt/ros/eloquent/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.762s]   CMakeLists.txt:26 (rosidl_generate_interfaces)
+[1.762s] 
+[1.762s] 
+[1.797s] CMake Warning at /opt/ros/eloquent/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:176 (add_library):
+[1.797s]   Cannot generate a safe runtime search path for target
+[1.797s]   policy_translation__python because files in some directories may conflict
+[1.797s]   with libraries in implicit directories:
+[1.797s] 
+[1.797s]     runtime library [libssl.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.798s]       /home/sangeetsu/miniconda3/envs/irlsim/lib
+[1.798s]     runtime library [libcrypto.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.798s]       /home/sangeetsu/miniconda3/envs/irlsim/lib
+[1.798s] 
+[1.798s]   Some of these libraries may not be found correctly.
+[1.798s] Call Stack (most recent call first):
+[1.798s]   /opt/ros/eloquent/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.799s]   /opt/ros/eloquent/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.799s]   CMakeLists.txt:26 (rosidl_generate_interfaces)
+[1.799s] 
+[1.799s] 
+[1.824s] CMake Warning at /opt/ros/eloquent/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:229 (add_library):
+[1.824s]   Cannot generate a safe runtime search path for target
+[1.824s]   policy_translation__rosidl_typesupport_c__pyext because files in some
+[1.824s]   directories may conflict with libraries in implicit directories:
+[1.825s] 
+[1.825s]     runtime library [libssl.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.825s]       /home/sangeetsu/miniconda3/envs/irlsim/lib
+[1.825s]     runtime library [libcrypto.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.825s]       /home/sangeetsu/miniconda3/envs/irlsim/lib
+[1.825s] 
+[1.825s]   Some of these libraries may not be found correctly.
+[1.825s] Call Stack (most recent call first):
+[1.826s]   /opt/ros/eloquent/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.826s]   /opt/ros/eloquent/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.826s]   CMakeLists.txt:26 (rosidl_generate_interfaces)
+[1.826s] 
+[1.826s] 
+[1.841s] -- Generating done
+[1.844s] -- Build files have been written to: /home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation
+[1.854s] Invoked command in '/home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent CONDA_PROMPT_MODIFIER=(irlsim) /usr/bin/cmake /home/sangeetsu/irlsim/LanguagePolicies/ros2/src/policy_translation -DCMAKE_INSTALL_PREFIX=/home/sangeetsu/irlsim/LanguagePolicies/ros2/install/policy_translation
+[1.860s] Invoking command in '/home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation': CMAKE_PREFIX_PATH=/opt/ros/eloquent CONDA_PROMPT_MODIFIER=(irlsim) /usr/bin/cmake --build /home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation -- -j8 -l8
+[1.924s] [35m[1mScanning dependencies of target policy_translation__cpp[0m
+[1.927s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.942s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.026s] Traceback (most recent call last):
+[2.029s]   File "/opt/ros/eloquent/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 8, in <module>
+[2.029s]     from rosidl_generator_c import generate_c
+[2.029s]   File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_generator_c/__init__.py", line 15, in <module>
+[2.029s]     from rosidl_cmake import convert_camel_case_to_lower_case_underscore
+[2.029s]   File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_cmake/__init__.py", line 24, in <module>
+[2.029s]     from rosidl_parser.parser import parse_idl_file
+[2.030s]   File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_parser/parser.py", line 20, in <module>
+[2.030s]     from lark import Lark
+[2.030s] ModuleNotFoundError: No module named 'lark'
+[2.050s] CMakeFiles/policy_translation__rosidl_generator_c.dir/build.make:165: recipe for target 'rosidl_generator_c/policy_translation/srv/network_pt.h' failed
+[2.050s] CMakeFiles/Makefile2:291: recipe for target 'CMakeFiles/policy_translation__rosidl_generator_c.dir/all' failed
+[2.050s] make[2]: *** [rosidl_generator_c/policy_translation/srv/network_pt.h] Error 1
+[2.050s] make[1]: *** [CMakeFiles/policy_translation__rosidl_generator_c.dir/all] Error 2
+[2.051s] make[1]: *** Waiting for unfinished jobs....
+[2.051s] Traceback (most recent call last):
+[2.051s]   File "/opt/ros/eloquent/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 8, in <module>
+[2.051s]     from rosidl_generator_cpp import generate_cpp
+[2.051s]   File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_generator_cpp/__init__.py", line 17, in <module>
+[2.051s]     from rosidl_cmake import generate_files
+[2.052s]   File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_cmake/__init__.py", line 24, in <module>
+[2.052s]     from rosidl_parser.parser import parse_idl_file
+[2.052s]   File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_parser/parser.py", line 20, in <module>
+[2.052s]     from lark import Lark
+[2.052s] ModuleNotFoundError: No module named 'lark'
+[2.065s] CMakeFiles/policy_translation__cpp.dir/build.make:170: recipe for target 'rosidl_generator_cpp/policy_translation/srv/network_pt.hpp' failed
+[2.065s] make[2]: *** [rosidl_generator_cpp/policy_translation/srv/network_pt.hpp] Error 1
+[2.065s] make[1]: *** [CMakeFiles/policy_translation__cpp.dir/all] Error 2
+[2.066s] make: *** [all] Error 2
+[2.066s] CMakeFiles/Makefile2:328: recipe for target 'CMakeFiles/policy_translation__cpp.dir/all' failed
+[2.066s] Makefile:140: recipe for target 'all' failed
+[2.070s] Invoked command in '/home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation' returned '2': CMAKE_PREFIX_PATH=/opt/ros/eloquent CONDA_PROMPT_MODIFIER=(irlsim) /usr/bin/cmake --build /home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation -- -j8 -l8

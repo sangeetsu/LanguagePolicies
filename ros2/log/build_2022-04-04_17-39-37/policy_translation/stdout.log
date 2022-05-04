@@ -1,0 +1,9 @@
+-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+-- Found PythonInterp: /home/sangeetsu/miniconda3/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /home/sangeetsu/miniconda3/bin/python3
+-- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+-- Found sensor_msgs: 0.8.1 (/opt/ros/eloquent/share/sensor_msgs/cmake)
+-- Found PythonInterp: /home/sangeetsu/miniconda3/bin/python3 (found version "3.8.5") 
+-- Configuring incomplete, errors occurred!
+See also "/home/sangeetsu/irlsim/LanguagePolicies/ros2/build/policy_translation/CMakeFiles/CMakeOutput.log".
